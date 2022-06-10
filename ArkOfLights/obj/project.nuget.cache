@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RhHAjzbFdwgIuTk6DlEb3iAxrmaHg6sJ4qTNOm98F8nRQmHV886+9JYwhbWcYigvketCd6DpUon8rhM4waZj7g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Monang\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\ArkOfLights\\ArkOfLights.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Monang\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
