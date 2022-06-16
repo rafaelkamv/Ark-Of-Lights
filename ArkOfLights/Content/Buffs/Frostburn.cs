@@ -10,7 +10,7 @@ namespace ArkOfLights.Content.Buffs
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Frostburn");
-            Description.SetDefault("You're burning from cold");
+            Description.SetDefault("You're burning while Freezing");
             Main.debuff[Type] = true;
             Main.pvpBuff[Type] = true;
             Main.buffNoSave[Type] = true;
@@ -41,7 +41,7 @@ namespace ArkOfLights.Content.Buffs
 
                 Player.lifeRegenTime = 0;
 
-                Player.lifeRegen -= 4;
+                Player.lifeRegen -= 18;
             }
         }
     }
