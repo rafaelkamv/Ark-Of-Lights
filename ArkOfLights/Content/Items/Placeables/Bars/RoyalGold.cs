@@ -13,15 +13,14 @@ namespace ArkOfLights.Content.Items.Placeables.Bars
             ItemID.Sets.SortingPriorityMaterials[Item.type] = 59;
             Item.maxStack = 99;
             Item.rare = ItemRarityID.Blue;
-            Item.width = 32;
-            Item.height = 32;
-            Item.value = 3000;
+            Item.width = 30;
+            Item.height = 24;
+            Item.value = 7895;
             Item.useStyle = ItemUseStyleID.Swing;
             Item.useTurn = true;
             Item.useAnimation = 15;
             Item.useTime = 10;
             Item.autoReuse = true;
-            Item.consumable = true;
             Item.placeStyle = 1;
         }
 

@@ -19,15 +19,14 @@ namespace ArkOfLights.Content.Items.Placeables.Bars
             ItemID.Sets.SortingPriorityMaterials[Item.type] = 57;
             Item.maxStack = 99;
             Item.rare = ItemRarityID.Green;
-            Item.width = 32;
-            Item.height = 32;
-            Item.value = 750;
+            Item.width = 30;
+            Item.height = 24;
+            Item.value = 1005;
             Item.useStyle = ItemUseStyleID.Swing;
             Item.useTurn = true;
             Item.useAnimation = 15;
             Item.useTime = 10;
             Item.autoReuse = true;
-            Item.consumable = false;
             Item.placeStyle = 1;
         }
         public override void OnResearched(bool fullyResearched)
@@ -38,6 +37,7 @@ namespace ArkOfLights.Content.Items.Placeables.Bars
             }
         }
 
+        //Recipes
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
