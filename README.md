@@ -3,7 +3,7 @@ Very Cool Terraria Mod
 
 ## Contributors
 ### Core team
-TML is largely created and maintained by a core team of contributors: **Blushiemagic**, **Chicken-Bones**, **Jopojelly**, **Jofairden**, **Mirsario** and **Solxanich**
+AoL is largely created and maintained by a core team of contributors: **Rafaelkamv**, and **Andreycoolguy**
 
 This project exists in its current state thanks to all the people who have contributed:
 
