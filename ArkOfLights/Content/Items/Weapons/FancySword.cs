@@ -6,7 +6,7 @@ using Terraria.ModLoader;
 
 namespace ArkOfLights.Content.Items.Weapons
 {
-    internal class FancySword : ModItem
+    public class FancySword : ModItem
     {
 
         public override void SetStaticDefaults()

@@ -18,6 +18,7 @@ namespace ArkOfLights.Content.Items.Placeables.Bars
             Item.value = 7895;
             Item.useStyle = ItemUseStyleID.Swing;
             Item.useTurn = true;
+            Item.consumable = true;
             Item.useAnimation = 15;
             Item.useTime = 10;
             Item.autoReuse = true;

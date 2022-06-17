@@ -1,1 +1,3 @@
 Ark of Lights is a Terraria mod that Adds Items, Buffs, Bosses, and Mechanics.
+
+OpenSource in https://github.com/rafaelkamv/Ark-Of-Lights

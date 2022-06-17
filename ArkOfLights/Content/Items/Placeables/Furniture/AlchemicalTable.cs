@@ -18,8 +18,8 @@ namespace ArkOfLights.Content.Items.Placeables.Furniture
         {
             Item.createTile = ModContent.TileType<Tiles.Furniture.CraftingStation.AlchemicalTable>();
 
-            Item.width = 30;
-            Item.height = 32;
+            Item.width = 28;
+            Item.height = 30;
 
             Item.useTurn = true;
             Item.autoReuse = true;
@@ -38,7 +38,7 @@ namespace ArkOfLights.Content.Items.Placeables.Furniture
             Recipe recipe = CreateRecipe();
             recipe.AddRecipeGroup("IronBar", 6);
             recipe.AddIngredient(ItemID.Bottle, 1);
-            recipe.AddRecipeGroup("Wood", 12);
+            recipe.AddRecipeGroup("Wood", 6);
             recipe.AddTile(TileID.Anvils);
             recipe.Register();
             
