@@ -33,6 +33,8 @@ namespace ArkOfLights.Content.Items.Weapons
         public override void OnHitNPC(Player player, NPC target, int damage, float knockBack, bool crit)
         {
             target.AddBuff(BuffID.Frostburn2, 300);
+            target.AddBuff(BuffID.Bleeding, 300);
+            //target.AddBuff(BuffID.ImperialQuake, 60);
         }
 
         //public override void ModifyTooltips(List<TooltipLine> tooltips)
