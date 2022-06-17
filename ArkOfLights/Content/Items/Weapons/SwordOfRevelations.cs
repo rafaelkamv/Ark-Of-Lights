@@ -25,7 +25,7 @@ namespace ArkOfLights.Content.Items.Weapons
             Item.useStyle = 1;
             Item.knockBack = 14;
             Item.value = 1000000;
-            Item.rare = -12;
+            Item.rare = ItemRarityID.Cyan;
             Item.UseSound = SoundID.Item1;
             Item.autoReuse = true;
         }
