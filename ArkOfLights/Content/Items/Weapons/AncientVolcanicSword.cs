@@ -10,7 +10,7 @@ namespace ArkOfLights.Content.Items.Weapons
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("Forged from the hottest material made\n[c/8686E5:Rare Material]");
+            Tooltip.SetDefault("Forged from the hottest material made\n[c/8686E5:Rare Sword]");
         }
 
         public override void SetDefaults()
@@ -38,8 +38,8 @@ namespace ArkOfLights.Content.Items.Weapons
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<Items.Material.Alchemy.VolcanicEruption>(12);
-            recipe.AddIngredient<Items.Material.Alchemy.Sulfur>(4);
+            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.VolcanicEruption>(12);
+            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.Sulfur>(4);
             recipe.AddIngredient(ItemID.Gel, 32);
             recipe.AddTile(TileID.Anvils);
             recipe.Register();

@@ -10,7 +10,7 @@ namespace ArkOfLights.Content.Items.Weapons
 
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("A great sword made from Pure Light");
+            Tooltip.SetDefault("A great sword made from Pure Light\n[c/04c3f9:Devine Sword]");
         }
 
         public override void SetDefaults()
