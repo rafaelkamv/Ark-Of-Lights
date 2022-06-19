@@ -4,6 +4,8 @@ using Terraria.ModLoader;
 using Terraria.Net;
 using Terraria.GameContent.NetModules;
 using Terraria.GameContent.Creative;
+using Terraria.DataStructures;
+using System.Collections.Generic;
 
 namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
 {
@@ -30,6 +32,11 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
 
             Item.maxStack = 999;
             Item.value = Item.sellPrice(silver: 2, copper: 2);
+        }
+
+        public override void ModifyTooltips(List<TooltipLine> tooltips)
+        {
+            tooltips.RemoveAt(4);
         }
 
         public override void AddRecipes()
