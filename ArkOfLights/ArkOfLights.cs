@@ -16,7 +16,13 @@ using Terraria.UI;
 
 namespace ArkOfLights
 {
-	public class ArkOfLights : Mod
-	{
-	}
+    public partial class ArkOfLights : Mod
+    {
+        public const string AssetPath = $"{nameof(ArkOfLights)}/Assets/";
+
+        public override void Unload()
+        {
+            
+        }
+    }
 }

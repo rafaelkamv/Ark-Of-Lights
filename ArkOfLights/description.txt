@@ -1,3 +1,13 @@
-Ark of Lights is a Terraria mod that Adds Items, Buffs, Bosses, and Mechanics.
+Ark of Lights is a Terraria mod that Adds Items, Buffs, NPCs, and Mechanics.
 
 OpenSource in https://github.com/rafaelkamv/Ark-Of-Lights
+
+
+New Mechanics that Ark of Ligths add are Alchemy/Chemistry system,
+adding alot of Progression and Sub-items to play with.
+
+Allowing longer but easier progression, and this extends to Hardmode.
+
+Added a few(Working on it) NPCs into the game.
+One of them is Albedo which is from Shit getting intact(genshin impact).
+He'll can move in at Mid-Late Hardmode and he will sells you potions that are available at that point of progression.
