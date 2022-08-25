@@ -7,6 +7,13 @@ namespace ArkOfLights.Content.Items.Placeables.Bars
 {
     public class RoyalGold : ModItem
     {
+        
+        public override void SetStaticDefaults()
+        {
+            Tooltip.SetDefault("A more durable Gold Bar, Infused with Steel\n\n[c/8686E5:Rare Material]");
+            Item.createTile = ModContent.TileType<Tiles.RoyalGold>();
+        }
+        
         public override void SetDefaults()
         {
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
@@ -23,12 +30,6 @@ namespace ArkOfLights.Content.Items.Placeables.Bars
             Item.useTime = 10;
             Item.autoReuse = true;
             Item.placeStyle = 1;
-        }
-
-        public override void SetStaticDefaults()
-        {
-            Tooltip.SetDefault("A more durable Gold Bar, Infused with Steel\n\n[c/8686E5:Rare Material]");
-            Item.createTile = ModContent.TileType<Tiles.RoyalGold>();
         }
 
         public override void OnResearched(bool fullyResearched)
