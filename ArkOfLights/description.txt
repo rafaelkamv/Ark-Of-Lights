@@ -7,7 +7,9 @@ New Mechanics that Ark of Ligths add are Alchemy/Chemistry system,
 adding alot of Progression and Sub-items to play with.
 
 Allowing longer but easier progression, and this extends to Hardmode.
+Because this mods adds Complex crafting recipes, but not in the way you think.
+Complex in this mod just requiers alot of Items from Previous tier, And this always applies to higher up Tier of Recipes.
 
 Added a few(Working on it) NPCs into the game.
-One of them is Albedo which is from Shit getting intact(genshin impact).
-He'll can move in at Mid-Late Hardmode and he will sells you potions that are available at that point of progression.
+One of them is Albedo which is from Genshin Impact.
+He'll move in at Mid-Late Hardmode and he will sells you potions that are available at that point of progression.
