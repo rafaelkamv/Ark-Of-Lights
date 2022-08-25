@@ -11,8 +11,8 @@ namespace ArkOfLights.Content.Items.Material
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("Used to Craft the Golden Scale Armor set\n[c/8686E5:Rare Material]");
-            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 64;
+            Tooltip.SetDefault("A delicate Scales made from gold\n[c/8686E5:Rare Material]");
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
         }
 
         public override void SetDefaults()
@@ -20,7 +20,7 @@ namespace ArkOfLights.Content.Items.Material
             Item.width = 32;
             Item.height = 32;
             Item.rare = ItemRarityID.Blue;
-            Item.maxStack = 64;
+            Item.maxStack = 99;
             Item.value = Item.sellPrice(gold: 3);
         }
 
