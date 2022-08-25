@@ -10,7 +10,7 @@ namespace ArkOfLights.Content.Items.Placeables.Bars
         
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("A more durable Gold Bar, Infused with Steel\n\n[c/8686E5:Rare Material]");
+            Tooltip.SetDefault("A more durable Gold Bar, Infused with Steel Bar\n\n[c/8686E5:Rare Material]");
             Item.createTile = ModContent.TileType<Tiles.RoyalGold>();
         }
         
@@ -18,7 +18,7 @@ namespace ArkOfLights.Content.Items.Placeables.Bars
         {
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
             ItemID.Sets.SortingPriorityMaterials[Item.type] = 59;
-            Item.maxStack = 99;
+            Item.maxStack = 999;
             Item.rare = ItemRarityID.Blue;
             Item.width = 30;
             Item.height = 24;
@@ -43,7 +43,7 @@ namespace ArkOfLights.Content.Items.Placeables.Bars
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.GoldBar, 1);
-            recipe.AddIngredient<Items.Placeables.Bars.SteelBar>();
+            recipe.AddIngredient<Items.Placeables.Bars.SteelBar>(2);
             recipe.AddTile(TileID.Anvils);
             recipe.Register();
         }
