@@ -27,7 +27,7 @@ namespace ArkOfLights.Content.Items.Equipment
             Item.rare = 11;
             Item.accessory = true;
 
-            Item.defense = 2;
+            Item.defense = 3;
         }
 
         public override void UpdateAccessory(Player player, bool hideVisual)
@@ -39,8 +39,8 @@ namespace ArkOfLights.Content.Items.Equipment
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.LavaCharm);
-            recipe.AddIngredient(ItemID.HellstoneBar, 6);
-            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.AbsoluteFuel>(6);
+            recipe.AddIngredient(ItemID.HellstoneBar, 15);
+            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.AbsoluteFuel>(60);
             recipe.AddTile(TileID.Anvils);
             recipe.Register();
         }
