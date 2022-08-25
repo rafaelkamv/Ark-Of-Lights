@@ -14,7 +14,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
         public override void SetStaticDefaults()
         {
             Tooltip.SetDefault("Liquid version of Sulfur, DO NOT DRINK!\n[c/F4F4F4:Common Material]");
-            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 100;
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
         }
 
         public override void SetDefaults()
