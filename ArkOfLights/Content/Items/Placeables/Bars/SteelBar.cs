@@ -17,7 +17,7 @@ namespace ArkOfLights.Content.Items.Placeables.Bars
         {
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
             ItemID.Sets.SortingPriorityMaterials[Item.type] = 57;
-            Item.maxStack = 99;
+            Item.maxStack = 999;
             Item.rare = ItemRarityID.Green;
             Item.width = 30;
             Item.height = 24;
