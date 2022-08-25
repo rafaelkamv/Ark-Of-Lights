@@ -11,7 +11,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("Used in the crafting of Weapons\n[c/92F892:Uncommon Material]");
+            Tooltip.SetDefault("Used in the crafting of Weapons and Upgrades\n[c/92F892:Uncommon Material]");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
         }
 
@@ -21,7 +21,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
             Item.height = 32;
             Item.rare = ItemRarityID.Green;
 
-            Item.maxStack = 99;
+            Item.maxStack = 999;
             Item.value = Item.sellPrice(silver: 10);
         }
 
@@ -29,7 +29,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.Charcoal>(4);
-            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.Sulfur>();
+            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.Sulfur>(2);
             recipe.AddTile<Tiles.Furniture.CraftingStation.AlchemicalTable>();
             recipe.Register();
         }
