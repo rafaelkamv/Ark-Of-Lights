@@ -28,7 +28,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddRecipeGroup("Wood");
+            recipe.AddRecipeGroup("Wood", 2);
             recipe.AddTile(TileID.Furnaces);
             recipe.Register();
         }

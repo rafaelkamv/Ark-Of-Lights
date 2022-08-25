@@ -21,7 +21,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
             Item.height = 32;
             Item.rare = ItemRarityID.Green;
 
-            Item.maxStack = 99;
+            Item.maxStack = 999;
             Item.value = Item.sellPrice(silver: 75);
         }
 
@@ -29,7 +29,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.UnchargedPowder>();
-            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.AbsoluteFuel>();
+            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.AbsoluteFuel>(2);
             recipe.AddTile<Tiles.Furniture.CraftingStation.AlchemicalTable>();
             recipe.Register();
         }

@@ -28,7 +28,7 @@ namespace ArkOfLights.Content.Items.Equipment
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.ObsidianSkull);
-            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.ChargedPowder>(4);
+            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.ChargedPowder>(40);
             recipe.AddTile(TileID.Anvils);
             recipe.Register();
         }
