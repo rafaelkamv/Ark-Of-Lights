@@ -38,9 +38,9 @@ namespace ArkOfLights.Content.Items.Weapons
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.VolcanicEruption>(12);
-            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.Sulfur>(4);
-            recipe.AddIngredient(ItemID.Gel, 32);
+            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.VolcanicEruption>(20);
+            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.Sulfur>(20);
+            recipe.AddIngredient(ItemID.Gel, 99);
             recipe.AddTile(TileID.Anvils);
             recipe.Register();
         }

@@ -28,7 +28,7 @@ namespace ArkOfLights.Content.NPCs
             Main.npcFrameCount[Type] = 1;
 
             NPCID.Sets.AttackFrameCount[Type] = 4;
-            NPCID.Sets.DangerDetectRange[Type] = 700;
+            NPCID.Sets.DangerDetectRange[Type] = 500;
             NPCID.Sets.AttackType[Type] = 0;
             NPCID.Sets.AttackTime[Type] = 60;
             NPCID.Sets.AttackAverageChance[Type] = 30;
@@ -48,9 +48,9 @@ namespace ArkOfLights.Content.NPCs
             NPC.width = 54;
             NPC.height = 61;
             NPC.aiStyle = 7;
-            NPC.damage = 245;
+            NPC.damage = 250;
             NPC.defense = 50;
-            NPC.lifeMax = 3560;
+            NPC.lifeMax = 3500;
             NPC.HitSound = SoundID.NPCHit1;
             NPC.DeathSound = SoundID.NPCDeath1;
             NPC.knockBackResist = 0.5f;
@@ -64,7 +64,7 @@ namespace ArkOfLights.Content.NPCs
             {
                 BestiaryDatabaseNPCsPopulator.CommonTags.SpawnConditions.Biomes.Surface,
 
-                new FlavorTextBestiaryInfoElement("He came from Teyvat to this world, haha get fucked."),
+                new FlavorTextBestiaryInfoElement("Albedo sells pre-Hardmode potions so you don't have to manualy make them. Hes a really useful guy"),
             });
         }
 

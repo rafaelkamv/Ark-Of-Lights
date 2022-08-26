@@ -11,7 +11,6 @@ namespace ArkOfLights.Common
         public override void PostSetupContent()
         {
             DoTheStarsAboveIntergration();
-
             DoBossChecklistIntegration();
         }
 
