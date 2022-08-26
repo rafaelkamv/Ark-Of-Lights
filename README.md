@@ -10,7 +10,9 @@ Additionaly, other items that is added by this mod is graded into **6** differen
 - Legendary
 - Divine
 
-That's all i can say here, you should find the rest by yourself by exploring the mod
+The goal of this mod is to make the game Playtime longger but not to much so it'll still be fun to play.
+
+That's all i can say here, you should find the rest by yourself by exploring the mod.
 
 ## Contributors
 ### Core team
