@@ -11,7 +11,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("Used to fuel almost everything\n[c/8686E5:Rare Material]");
+            Tooltip.SetDefault("Mystical fuel used to fuel almost everything\n[c/8686E5:Rare Material]");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 100;
         }
 
