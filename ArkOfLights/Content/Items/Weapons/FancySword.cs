@@ -19,7 +19,7 @@ namespace ArkOfLights.Content.Items.Weapons
         {
             //Attack
             Item.damage = 7;
-            Item.crit = 1;
+            Item.crit = 0;
             Item.knockBack = 6;
             Item.autoReuse = true;
 
