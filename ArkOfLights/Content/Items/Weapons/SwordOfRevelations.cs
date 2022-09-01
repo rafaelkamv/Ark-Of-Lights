@@ -30,13 +30,24 @@ namespace ArkOfLights.Content.Items.Weapons
             Item.autoReuse = true;
         }
 
+        //debuff
         public override void OnHitNPC(Player player, NPC target, int damage, float knockBack, bool crit)
         {
             target.AddBuff(BuffID.Frostburn2, 300);
             target.AddBuff(BuffID.Bleeding, 300);
             //target.AddBuff(BuffID.ImperialQuake, 60);
         }
+        
+        //recipe
+        public override void AddRecipe()
+        {
+            Recipe recipe = CreateRecipe();
+            recipe.AddIngredient<Items.Material.Alchemy.EndgameAlchemy.UltimateSingularityItem>();
+            recipe.AddTile(TileID.Anvils);
+            recipe.Register();
+        }
 
+        //tooltips
         //public override void ModifyTooltips(List<TooltipLine> tooltips)
         //{
         //    foreach (TooltipLine line2 in tooltips)
