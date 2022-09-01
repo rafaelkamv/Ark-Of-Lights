@@ -11,8 +11,7 @@ namespace ArkOfLights.Content.Items.Weapons
 
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("");
-
+            Tooltip.SetDefault("It's so fancy it lights your enemies on fire!");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
 
@@ -39,7 +38,7 @@ namespace ArkOfLights.Content.Items.Weapons
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.SilverBar, 12);
+            recipe.AddIngredient(ItemID.SilverBar, 24);
             recipe.AddTile(TileID.Anvils);
             recipe.Register();
         }
