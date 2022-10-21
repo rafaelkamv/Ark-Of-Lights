@@ -5,6 +5,7 @@ using Terraria.Net;
 using Terraria.GameContent.NetModules;
 using Terraria.GameContent.Creative;
 
+//Note = Make this item useful in future update, this is a note to my self and other devs
 namespace ArkOfLights.Content.Items.Material.Alchemy.EndgameAlchemy
 {
     public class UltimateSingularityItem : ModItem
