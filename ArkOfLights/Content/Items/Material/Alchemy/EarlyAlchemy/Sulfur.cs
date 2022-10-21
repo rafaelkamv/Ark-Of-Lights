@@ -11,7 +11,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("The most basic form of Alchemy\nExtremely Toxic and Flameable\n[c/F4F4F4:Common Material]");
+            Tooltip.SetDefault("The most basic form of Alchemy\nExtremely Toxic and Flameable\nCould probably be use as fuel\n[c/F4F4F4:Common Material]");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
         }
 
