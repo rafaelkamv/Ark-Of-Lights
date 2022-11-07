@@ -10,7 +10,7 @@ namespace ArkOfLights.Content.Items.Placeables.Furniture
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Alchemical Table");
-            Tooltip.SetDefault("Used to do Alchemy\n[c/F4F4F4:Common Crafting Station]");
+            Tooltip.SetDefault("Is used to do Alchemy\n[c/F4F4F4:Common Crafting Station]");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
 
@@ -36,9 +36,9 @@ namespace ArkOfLights.Content.Items.Placeables.Furniture
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddRecipeGroup("IronBar", 6);
-            recipe.AddIngredient(ItemID.Bottle, 1);
-            recipe.AddRecipeGroup("Wood", 6);
+            recipe.AddRecipeGroup("IronBar", 12);
+            recipe.AddIngredient(ItemID.Bottle, 4);
+            recipe.AddRecipeGroup("Wood", 18);
             recipe.AddTile(TileID.Anvils);
             recipe.Register();
             
