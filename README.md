@@ -14,7 +14,7 @@ The goal of this mod is to make the game Playtime longger but not to much so it'
 
 The main and Final goal of this mod is to Craft the **Ultimate Singularity** a Devine material that would be one of the component to craft the best and most powerful items.
 
-That's all i can say here, you should find the rest by yourself by exploring the mod.
+That's all i can say here, you should find the rest by yourself by exploring the mod. Terminus, Est
 
 ## Contributors
 ### Core team
