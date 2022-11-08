@@ -39,7 +39,7 @@ namespace ArkOfLights.Content.Items.Equipment
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.LavaCharm);
-            recipe.AddIngredient(ItemID.HellstoneBar, 15);
+            recipe.AddIngredient(ItemID.HellstoneBar, 18);
             recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.AbsoluteFuel>(60);
             recipe.AddTile(TileID.Anvils);
             recipe.Register();

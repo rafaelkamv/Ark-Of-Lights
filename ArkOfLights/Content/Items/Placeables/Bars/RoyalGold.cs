@@ -10,7 +10,7 @@ namespace ArkOfLights.Content.Items.Placeables.Bars
         
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("A more durable Gold Bar, Infused with Steel Bar\n\n[c/8686E5:Rare Material]");
+            Tooltip.SetDefault("A more durable Gold Bar, has been infused with Steel Bar\n\n[c/8686E5:Rare Material]");
             Item.createTile = ModContent.TileType<Tiles.RoyalGold>();
         }
         
