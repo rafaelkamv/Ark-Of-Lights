@@ -12,7 +12,7 @@ namespace ArkOfLights.Content.Items.Material
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Essence of Clarity");
-            Tooltip.SetDefault("A key component in\nEnlightening Equipments\n[c/04c3f9:Legendary Material]");
+            Tooltip.SetDefault("A key component in\nEnlightening Equipments\n[c/04c3f9:Epic Material]");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
         }
 
@@ -20,7 +20,7 @@ namespace ArkOfLights.Content.Items.Material
         {
             Item.width = 32;
             Item.height = 32;
-            Item.rare = ItemRarityID.Gold;
+            Item.rare = ItemRarityID.Purple;
             Item.maxStack = 999;
             Item.value = Item.sellPrice(Gold: 10);
         }
