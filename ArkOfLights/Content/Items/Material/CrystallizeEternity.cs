@@ -28,7 +28,7 @@ namespace ArkOfLights.Content.Items.Material
         {
             if (fullyResearched)
             {
-                CreativeUI.ResearchItem(ModContent.ItemType<GoldenScale>());
+                CreativeUI.ResearchItem(ModContent.ItemType<CrystallizeEternity>());
             }
         }
     }
