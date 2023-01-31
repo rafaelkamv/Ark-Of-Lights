@@ -11,7 +11,7 @@ namespace ArkOfLights.Content.Items.Material
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("A material that have seems\nto crystallize for a long time\n[c/04c3f9:Devine Material]");
+            Tooltip.SetDefault("A material that seems to\nhave crystallize for a long time\n[c/04c3f9:Mythic Material]");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
         }
 
@@ -19,7 +19,7 @@ namespace ArkOfLights.Content.Items.Material
         {
             Item.width = 32;
             Item.height = 32;
-            Item.rare = ItemRarityID.Cyan;
+            Item.rare = ItemRarityID.Pink;
             Item.maxStack = 999;
             Item.value = Item.sellPrice(platinum: 10);
         }
