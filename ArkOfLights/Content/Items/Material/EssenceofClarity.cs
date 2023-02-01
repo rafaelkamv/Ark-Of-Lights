@@ -18,8 +18,8 @@ namespace ArkOfLights.Content.Items.Material
 
         public override void SetDefaults()
         {
-            Item.width = 32;
-            Item.height = 32;
+            Item.width = 40;
+            Item.height = 40;
             Item.rare = ItemRarityID.Purple;
             Item.maxStack = 999;
             Item.value = Item.sellPrice(Gold: 10);
