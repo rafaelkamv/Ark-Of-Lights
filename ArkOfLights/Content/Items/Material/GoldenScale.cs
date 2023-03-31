@@ -11,8 +11,8 @@ namespace ArkOfLights.Content.Items.Material
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("A delicate Scales made from gold\n[c/8686E5:Rare Material]");
-            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
+            Tooltip.SetDefault("Delicate scales made from gold\n[c/8686E5:Rare Material]");
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 999;
         }
 
         public override void SetDefaults()
