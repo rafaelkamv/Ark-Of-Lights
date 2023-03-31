@@ -12,7 +12,7 @@ namespace ArkOfLights.Content.Items.Material
         public override void SetStaticDefaults()
         {
             Tooltip.SetDefault("A material that seems to\nhave crystallize for a long time\n[c/04c3f9:Mythic Material]");
-            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 999;
         }
 
         public override void SetDefaults()
