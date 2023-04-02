@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ArkOfLights.Content.Items.Weapons
+namespace ArkOfLights.Content.Items.TestItems
 {
     public class EpicSword : ModItem
     {
