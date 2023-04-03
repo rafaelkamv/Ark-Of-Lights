@@ -39,7 +39,7 @@ namespace ArkOfLights.Content.Items.Weapons
         }
         
         //recipe
-        public override void AddRecipe()
+        public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient<Items.Material.Alchemy.EndgameAlchemy.UltimateSingularityItem>();

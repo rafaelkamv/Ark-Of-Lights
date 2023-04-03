@@ -43,7 +43,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.Sulfur>(2);
-            recipe.AddIngredient(ItemID.Bottle);
+            recipe.AddIngredient(ItemID.BottledWater);
             recipe.AddTile<Tiles.Furniture.CraftingStation.AlchemicalTable>();
             recipe.Register();
         }

@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ArkOfLights.Content.Items.Weapons
+namespace ArkOfLights.Content.Items.TestItems
 {
     public class EpicSword : ModItem
     {
@@ -28,12 +28,12 @@ namespace ArkOfLights.Content.Items.Weapons
             Item.autoReuse = true;
         }
 
-        public override void AddRecipes()
-        {
-            Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.DirtBlock, 10);
-            recipe.AddTile(TileID.WorkBenches);
-            recipe.Register();
-        }
+        // public override void AddRecipes()
+        // {
+        //    Recipe recipe = CreateRecipe();
+        //    recipe.AddIngredient(ItemID.DirtBlock, 10);
+        //    recipe.AddTile(TileID.WorkBenches);
+        //    recipe.Register();
+        // }
     }
 }
