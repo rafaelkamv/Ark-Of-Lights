@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 namespace ArkOfLights.Content.Buffs
 {
     
-    public class Frostburn : ModBuff
+    public class Hexxed : ModBuff
     {
         public override void SetStaticDefaults()
         {
