@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 namespace ArkOfLights.Content.Buffs
 {
     
-    public class Frostburn : ModBuff
+    public class AbsoluteDefragmentation : ModBuff
     {
         public override void SetStaticDefaults()
         {
