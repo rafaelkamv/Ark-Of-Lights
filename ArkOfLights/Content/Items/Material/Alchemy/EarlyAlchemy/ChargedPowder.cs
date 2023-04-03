@@ -12,7 +12,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
         public override void SetStaticDefaults()
         {
             Tooltip.SetDefault("Used in the crafting of Ammunitions and Equipments\n[c/92F892:Uncommon Material]");
-            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 999;
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
         }
 
         public override void SetDefaults()

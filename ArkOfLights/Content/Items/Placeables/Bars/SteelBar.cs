@@ -10,7 +10,7 @@ namespace ArkOfLights.Content.Items.Placeables.Bars
         public override void SetStaticDefaults()
         {
             Tooltip.SetDefault("A very durable Ingot\n[c/92F892:Uncommon Material]");
-            // add Tile later
+            //add Tile later
         }
 
         public override void SetDefaults()

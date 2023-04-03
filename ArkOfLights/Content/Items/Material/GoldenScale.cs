@@ -11,8 +11,8 @@ namespace ArkOfLights.Content.Items.Material
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("Delicate scales made from gold\n[c/8686E5:Rare Material]");
-            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 999;
+            Tooltip.SetDefault("A delicate Scales made from gold\n[c/8686E5:Rare Material]");
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
         }
 
         public override void SetDefaults()
@@ -24,15 +24,6 @@ namespace ArkOfLights.Content.Items.Material
             Item.value = Item.sellPrice(gold: 3);
         }
 
-          // Placeholder crafting recipe
-        public override void AddRecipes()
-        {
-            Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.GoldBar, 3)
-            recipe.AddTile(TileID.HeavyWorkBench);
-            recipe.Register();
-         }
-        
         public override void OnResearched(bool fullyResearched)
         {
             if (fullyResearched)

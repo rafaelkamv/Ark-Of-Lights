@@ -1,6 +1,6 @@
 displayName = Ark of Lights
 author = Rafaelkamv
-version = 2023.02.01
+version = 2022.11.01
 homepage = https://github.com/rafaelkamv/Ark-Of-Lights
 hideCode = false
 hideResources = false
