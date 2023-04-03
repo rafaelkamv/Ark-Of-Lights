@@ -24,6 +24,15 @@ namespace ArkOfLights.Content.Items.Material
             Item.value = Item.sellPrice(gold: 3);
         }
 
+          // Placeholder crafting recipe
+        public override void AddRecipes()
+        {
+            Recipe recipe = CreateRecipe();
+            recipe.AddIngredient(ItemID.GoldBar, 3)
+            recipe.AddTile(TileID.HeavyWorkBench);
+            recipe.Register();
+         }
+        
         public override void OnResearched(bool fullyResearched)
         {
             if (fullyResearched)
