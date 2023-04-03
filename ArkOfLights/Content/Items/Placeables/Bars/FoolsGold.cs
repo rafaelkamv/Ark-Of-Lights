@@ -12,7 +12,8 @@ namespace ArkOfLights.Content.Items.Placeables.Bars
         {
             DisplayName.SetDefault("Fool's Gold");
             Tooltip.SetDefault("A rarer arch type of gold\nimbued with some sulfur to make\n[c/8686E5:Rare Material]");
-            Item.createTile = ModContent.TileType<Tiles.FoolsGold>();
+            // Remind me to add a tile
+            // Item.createTile = ModContent.TileType<Tiles.FoolsGold>();
         }
         
         public override void SetDefaults()
