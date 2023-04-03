@@ -22,7 +22,7 @@ namespace ArkOfLights.Content.Items.Material
             Item.height = 40;
             Item.rare = ItemRarityID.Purple;
             Item.maxStack = 999;
-            Item.value = Item.sellPrice(Gold: 10);
+            Item.value = Item.sellPrice(gold: 10);
         }
 
         public override void OnResearched(bool fullyResearched)
