@@ -47,6 +47,7 @@ namespace ArkOfLights.Content.Items.Placeables.Bars
             recipe.AddIngredient(ItemID.GoldBar, 2);
             recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.Sulfur>(4);
             recipe.AddTile(TileID.Anvils);
+            recipe.AddTile(TileID.Furnaces);
             recipe.Register();
         }
     }
