@@ -13,7 +13,7 @@ namespace ArkOfLights.Content.Items.Material
         {
             DisplayName.SetDefault("Essence of Clarity");
             Tooltip.SetDefault("A key component in\nEnlightening Equipments\n[c/04c3f9:Epic Material]");
-            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 999;
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
         }
 
         public override void SetDefaults()
