@@ -12,8 +12,7 @@ namespace ArkOfLights.Content.Items.Material
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Fractured Singularity");
-            Tooltip.SetDefault("Main component in the making of Singularities\n[c/04c3f9:Legendary Material]");
-            //Remind me to recolor the rarity
+            Tooltip.SetDefault("Main component in the making of Singularities\n[c/04c3f9:Epic Material]");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
         }
 
