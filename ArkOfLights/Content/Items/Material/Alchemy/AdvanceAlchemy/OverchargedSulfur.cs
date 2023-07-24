@@ -11,7 +11,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.AdvanceAlchemy
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("When you combined Charged Powder and Sulfur\nit made this.\nCAUTION, probably can explode\n[c/8686E5:Rare Material]");
+            Tooltip.SetDefault("When you combined Charged Powder and Sulfur\nit made this.\nCAUTION, can probably explode\n[c/8686E5:Rare Material]");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
         }
 
