@@ -15,7 +15,9 @@ Additionaly, other items that is added by this mod is graded into **6** differen
 ~~The main and Final goal of this mod is to Craft the **Ultimate Singularity** a Devine material that would be one of the component to craft the best and most powerful items.~~
 
 ~~That's all i can say here, you should find the rest by yourself by exploring the mod.~~
-Ark of Lights is now a standalone MMORPG game that is baing developed by Rafaelkamv
+
+
+Ark of Lights is now a standalone MMORPG game that is baing developed by Rafaelkamv. This repo will be revamped to fit the new information and (Maybe)sprites
 
 ## Contributors
 ### Core team
